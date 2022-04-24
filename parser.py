@@ -36,3 +36,17 @@ func for = a,b,c -> a; while(b, c)
 sample4 = """
 x+y
 """
+operators = {
+    '+': lambda a, b: a + b,
+    '-': lambda a, b: a - b,
+    '*': lambda a, b: a * b,
+    '/': lambda a, b: a / b,
+    '**': lambda a, b: a ** b,
+    '^': lambda a, b: a ^ b,
+    '<': lambda a, b: a < b,
+    '>': lambda a, b: a > b,
+    '<=': lambda a, b: a <= b,
+    '>=': lambda a, b: a >= b,
+    '==': lambda a, b: a == b,
+    '!=': lambda a, b: a != b,
+}
